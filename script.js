@@ -17,7 +17,7 @@ document.getElementById("siBtn").addEventListener("click", function () {
 
   document.getElementById("messageContainer").style.display = "block";
   document.getElementById("messageContainer").innerHTML =
-    "Khỏi cần chọn t cũng biết m mup r =))";
+    "Khỏi cần chọn t cũng biết m mup r";
 
   setTimeout(function () {
     document.getElementById("happyGifContainer").style.display = "none";
