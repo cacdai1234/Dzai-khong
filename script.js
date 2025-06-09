@@ -121,7 +121,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
 
       noButtonState++;
       document.getElementById("noBtn").onclick = function() {  
-        if (confirm("TOI THAT SU KHONG DEP ZAI SAO?")) {  
+        if (confirm("Không cần phải tự ti vậy đâu !")) {  
             window.location.href = "./troll.mp4";  
         }  
     };  
