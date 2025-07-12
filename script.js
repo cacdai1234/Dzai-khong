@@ -17,7 +17,7 @@ document.getElementById("siBtn").addEventListener("click", function () {
 
   document.getElementById("messageContainer").style.display = "block";
   document.getElementById("messageContainer").innerHTML =
-    "Bé cũng yêu chị 💗";
+    "Chị làmm ng em yêu nhá";
 
   setTimeout(function () {
     document.getElementById("happyGifContainer").style.display = "none";
