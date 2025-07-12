@@ -17,7 +17,7 @@ document.getElementById("siBtn").addEventListener("click", function () {
 
   document.getElementById("messageContainer").style.display = "block";
   document.getElementById("messageContainer").innerHTML =
-    "Khỏi cần chọn t cũng biết m mup r";
+    "Bé cũng yêu chị 💗";
 
   setTimeout(function () {
     document.getElementById("happyGifContainer").style.display = "none";
@@ -121,7 +121,7 @@ document.getElementById("noBtn").addEventListener("click", function () {
 
       noButtonState++;
       document.getElementById("noBtn").onclick = function() {  
-        if (confirm("Không cần phải tự ti vậy đâu !")) {  
+        if (confirm("Chị hong yêu bé hảaa :(")) {  
             window.location.href = "./troll.mp4";  
         }  
     };  
